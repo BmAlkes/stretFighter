@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&display=swap");
+
+:root {
+  --black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  background-color: var(--black);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img {
+  padding: 1rem;
+  max-width: 180px;
+}
+
+.menu-nav ul li {
+  display: inline-block;
+}
+
+.menu-nav ul li a {
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: 700;
+}
+
+.submenu {
+  background-color: orange;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.submenu img {
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.submenu h1 {
+  margin: 1rem 0;
+  font-size: 6rem;
+  letter-spacing: 5px;
+}
+
+.submenu p {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.handIcon {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.barra1{
+  width: 40px;
+  height: 3px;
+  background-color:var(--black);
+  margin-right: 10px;
+}
+
+.barra2{
+  width: 40px;
+  height: 3px;
+  background-color:var(--black);
+  margin-left: 10px;
+}
+
+.handIcon i{
+  font-size:3rem;
+  margin-bottom: 3rem;
+  margin-top: 45px;
+}
+
+.caracters {
+  width: 100%;
+  height: 100%;
+}
+
+.caracters h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.perfil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.perfil-caracters img {
+  max-width: 330px;
+  margin: 2rem;
+}
+.part3 {
+  width: 100%;
+  height: 100vh;
+  background-color: orange;
+}
+
+
+
+.part3 h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.text div {
+  font-size: 2rem;
+  padding: 1rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+
+.text div p {
+  text-align: center;
+}
+
+.btn-fight {
+  border: 0;
+  background-color: var(--black);
+  color: #fff;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 1rem auto;
+  border-radius: 5px;
+  display: block;
+}
+.form {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+form label {
+  margin-left: 27.5%;
+  font-weight: 600;
+}
+
+form input {
+  display: block;
+  width: 45%;
+  margin: 0.5rem auto;
+  border: 0;
+  border-bottom: 1px solid rgb(177, 175, 175);
+}
+
+#feedback {
+  margin-top: 9rem;
+}
+
+form > button {
+  color: #fff;
+  background-color: orange;
+  border: 0px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  display: block;
+  margin-left: 27%;
+  margin-top: 1.5rem;
+}
+
+footer {
+  width: 100%;
+  height: 30%;
+}
+.pre-footer {
+  background-color: var(--black);
+  color: #fff;
+  padding: 2rem;
+}
+.pre-footer h3 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos i {
+  border: 1px solid #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+.footer-copyright {
+  text-align: center;
+  background-color: rgb(85, 84, 84);
+  padding: 1rem;
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+    .nav-logo img {
+        max-width: 150px;
+      }
+
+      .submenu img{
+        width: 450px;
+      }
+
+      .menu-nav ul li a {
+        color: #fff;
+        padding: 0.4rem;
+        font-size: 1.2rem;
+        text-align: right;
+        font-weight: 700;
+      }
+
+      .submenu h1 {
+        margin: 1rem 0;
+        font-size: 4rem;
+        letter-spacing: 5px;
+        text-align: center;
+      }
+      
+      .submenu p {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        text-align: center;
+      }
+  
+
+  .text {
+    flex-direction: column;
+  }
+  .text div {
+    font-size: 1rem;
+    padding: 0.5rem;
+    letter-spacing: 2px;  
+  }
+  .btn-fight{
+    margin-bottom: 1rem;
+  }
+}
