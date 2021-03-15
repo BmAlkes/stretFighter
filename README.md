@@ -1,1 +1,1 @@
-# StreetFighter Landing Page
+# StreetFighter Landing Page.
